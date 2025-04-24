@@ -1,0 +1,88 @@
+.cart-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to a new line if there's no space */
+  gap: 20px; /* Adds space between cart items */
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: column; /* Stacks item details vertically */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px; /* Fixed width for each cart item */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-image {
+  width: 100%;
+  height: 150px; /* Set height for product image */
+  border-radius: 5px;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.cart-item-details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column; /* Stack details vertically */
+}
+
+.cart-item-name {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.cart-item-price,
+.cart-item-quantity,
+.cart-item-type,
+.cart-item-phone,
+.cart-item-address {
+  margin: 5px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Align buttons at both ends */
+  margin-top: auto; /* Push buttons to the bottom */
+}
+
+.remove-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1; /* Allow it to take available space */
+  margin-right: 10px; /* Space between buttons */
+}
+
+.remove-button:hover {
+  background-color: #ff1a1a;
+}
+
+.buy-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it inline-block */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Change cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  flex: 1; /* Allow it to take available space */
+}
+
+.buy-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}

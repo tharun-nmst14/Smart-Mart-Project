@@ -1,0 +1,74 @@
+.my-card-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: px; /* Reduce space between grid items */
+}
+
+.product-card {
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Reduced padding inside the card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  background-color: #fff; /* White background */
+  transition: transform 0.2s; /* Smooth scaling effect on hover */
+}
+
+.product-card:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.product-image {
+  width: 100%; /* Full width of the card */
+  height: 140px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+  border-radius: 4px; /* Rounded corners for images */
+}
+
+.product-name {
+  font-size: 1.5em; /* Larger font size for product name */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+.product-type {
+  font-size: 1.2em; /* Slightly larger font size */
+  color: #555; /* Gray color for type */
+}
+
+.product-price {
+  font-size: 1.2em; /* Larger font size for price */
+  color: #28a745; /* Green color for price */
+}
+
+.product-quantity {
+  margin: 10px 0; /* Margin for spacing */
+}
+
+.buy-button, .delete-button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s; /* Smooth transition for background color */
+  margin: 5px; /* Margin between buttons */
+}
+
+.buy-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red background for delete */
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}

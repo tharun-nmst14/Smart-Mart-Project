@@ -1,0 +1,110 @@
+/* General page styling */
+.dynamic-form-page body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container styling */
+.dynamic-form-page .contain {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Page title styling */
+.dynamic-form-page h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form field group styling */
+.dynamic-form-page .form-grou{
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.dynamic-form-page label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input styling */
+.dynamic-form-page input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+/* Input hover and focus effect */
+.dynamic-form-page input[type='text']:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button styling */
+.dynamic-form-page button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dynamic-form-page button:hover {
+  background-color: #0056b3;
+}
+
+.dynamic-form-page button:active {
+  transform: scale(0.98);
+}
+
+/* Add New Item button styling */
+.dynamic-form-page button[type='button'] {
+  background-color: #28a745;
+}
+
+.dynamic-form-page button[type='button']:hover {
+  background-color: #218838;
+}
+
+/* Submit button styling */
+.dynamic-form-page button[type='submit'] {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dynamic-form-page .container {
+      padding: 20px;
+  }
+
+  .dynamic-form-page h2 {
+      font-size: 1.5rem;
+  }
+
+  .dynamic-form-page button {
+      font-size: 0.9rem;
+  }
+}

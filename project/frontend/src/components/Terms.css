@@ -1,0 +1,49 @@
+/* src/pages/Terms.css */
+
+.terms-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .terms-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .terms-container h3 {
+    font-size: 22px;
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .terms-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .footer-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-link a {
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .footer-link a:hover {
+    text-decoration: underline;
+  }
+  
